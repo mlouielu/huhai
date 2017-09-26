@@ -1,0 +1,29 @@
+# 請使用 UTF-8 編碼
+# 在 YAML 使用 # 作為 comment 表示
+
+# name 必填寫. 請填寫常用名
+name: YOUR-NAME
+
+# other_names 可為空. 填寫其他姓名 (比如說: 原名, 曾用名)
+# 採用 YAML 的 key-value pair. 舉例如下:
+# other_names: {"原名": "張三", "化名": "李四", "英文名": "John"}
+others_names:
+
+# sex 必填寫. 用 M/F 代表 男/女
+sex: M
+
+# birth 必填寫. 填寫出生時間, 用西元表示. 未知年份使用 N/A 表示
+birth: N/A
+
+# death 可為空. 填寫死亡時間, 用西元表示. 未知年份使用 N/A 表示. 
+# 尚未死亡請留空.
+death:
+
+# desc 可為空. 填寫概述, 用 YAML 多行語法. 
+# 考量到關係圖的效果, desc 不宜太長.
+desc: |
+    請填寫概述
+
+# links 可為空.
+links:
+
